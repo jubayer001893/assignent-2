@@ -1,0 +1,180 @@
+.boddy{
+    font-family:'Open Sans', sans-serif;
+   
+   
+}
+.mid-side{
+    background-color: rgba(221, 117, 172, 0.12);
+}
+
+/*header*/
+.header{
+    display: flex;
+}
+
+.section-title{
+    padding-top: 50px ;
+    margin-left: 250px;    
+}
+.section-a{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 600px;
+   
+    margin-top: 70px;
+    
+}
+.section-a a{
+    text-decoration: none;
+    margin-left: 40px;
+    color: black;
+}
+.section-had{
+    
+ 
+   width: 100%;
+   font-size: 50px;
+   font-weight: 600px;
+}
+   
+.section-span{
+    text-align: center;
+    margin-left: 90px;
+}
+/*section itam*/
+.section-list{
+    margin-left: 500px;
+    margin-top: 100px;
+   
+}
+
+.section-para{
+    width: 50%;
+}
+.section-buttom{
+   margin-left: 140px;
+   margin-bottom: 50px;
+  
+   
+  
+}
+.section-buttom button{
+ width: 15%;
+ height: 50px;
+ background-color: rgba(218, 148, 36, 0.848);
+ border-radius: 5px;
+ 
+}
+.section-img img{
+    width: 75%;
+    height: 75%;
+    margin-left: 15%;
+    margin-bottom: 30px;
+    
+}
+/*team section*/
+
+.team-img{
+    display: grid;
+   grid-template-columns: repeat(2,1fr);
+   gap: 4px;
+   margin-left: 15%;
+   margin-top: 50px;
+   width: 100%;
+}
+
+.section-team{
+    display: flex;
+
+}
+
+.team-style{
+  
+   margin-left: 100px;
+   margin-top: 250px;  
+}
+
+.tea-buttom
+
+/*title style*/
+.title{
+    display:inline;
+    margin-top: 300px;
+}
+
+
+.title-style{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.title-img{
+    
+  width: 50%;
+
+
+}
+.titile-para{
+    margin-left: 15%;
+    color: rgb(255, 255, 255);
+    grid-column-gap:50px ;
+}
+.titile-para:hover{
+    color: rgb(0, 0, 0);
+}
+.title-button{
+    margin-left:700px;
+    border-radius: 10px;
+    height:200px ;
+    width:250px ;
+    margin-top: 100px;
+}
+/*style section*/
+.style-tag {
+    margin-top: 50px;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+
+}
+/*tag style*/
+.tag-section{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+.tag-section img{
+    width: 150px;
+}
+.logo-style{
+    display: inline;
+}
+.border-style{
+    border: 3px solid rgb(232, 211, 21);
+    padding: 10px 20px;
+}
+
+.sponser h1{
+    text-align: center;
+    margin-top: 80px;
+}
+.sponser p{
+  font-weight: 500px;
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 30px;
+} 
+
+footer{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 400px;
+    background-color:rgb(221, 117, 172)/60 ;
+}
