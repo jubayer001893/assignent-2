@@ -94,7 +94,11 @@
    margin-top: 250px;  
 }
 
-.tea-buttom
+.team-buttom button{
+    padding: 10px 20px;
+    background-color: rgb(197, 143, 6);
+    border-radius: 5px;
+}
 
 /*title style*/
 .title{
@@ -125,11 +129,14 @@
     color: rgb(0, 0, 0);
 }
 .title-button{
-    margin-left:700px;
+    margin-left:1000px;
     border-radius: 10px;
     height:200px ;
     width:250px ;
-    margin-top: 100px;
+    margin-top: 500px;
+}
+.title-span{
+  font-size: 50px;
 }
 /*style section*/
 .style-tag {
@@ -174,7 +181,7 @@
 footer{
     text-align: center;
     font-size: 20px;
-    margin-top: 30px;
+    margin-top: 100px;
     margin-bottom: 400px;
     background-color:rgb(221, 117, 172)/60 ;
 }
